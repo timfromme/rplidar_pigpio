@@ -5,15 +5,15 @@ except ImportError:
     from distutils.core import setup
 
 setup(
-    name = 'rplidar',
-    py_modules = ['rplidar'],
-    version = '0.9.2',
-    description = 'Simple and lightweight module for working with RPLidar laser scanners',
-    author='Artyom Pavlov',
+    name='rplidar-pigpio',
+    py_modules=['rplidar'],
+    version='0.9.3',
+    description='Simple and lightweight module for working with RPLidar laser scanners',
+    author='Artyom Pavlov, Tim Fromme',
     author_email='newpavlov@gmail.com',
-    url='https://github.com/SkRobo/rplidar',
+    url='https://github.com/timfromme/rplidar_pigpio',
     license='MIT',
-    install_requires=['pyserial'],
+    install_requires=['pigpio'],
     zip_safe=True,
     long_description='This module aims to implement communication protocol '
         'with RPLidar laser scanners. It\'s Python 2 and 3 '
